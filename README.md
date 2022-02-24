@@ -8,5 +8,8 @@ Tejas Saboo,
 Varun Nayak,
 Ayush Bhattacharya
 
-
-We create a data set of Pauli Transfer Matrices by performing qauntum process tomography on randomized matrices under varying noise parameters. We then attempt to predict the noisy transfer matrix of a given channel and noise parameters using a weighted function as well as a non-linear neural network. Results are evaluated using fidelity.
+• Awarded 2nd Place at UT Qiskit Fall Fest Quantum Computing Hackathon and advanced to IBM Qiskit Global Invitational Hackathon
+• Investigated efficient algorithms for identifying and correcting errors caused by noise in quantum circuits using twirling and ML
+• Generated a dataset of 825 Pauli Transfer Matrices to train a non-linear neural network with a fidelity loss function by iterating through 25 levels of amplitude damping and dephasing for 33 randomized circuits and performing quantum process tomography 
+• Simulated amplitude damping with a controlled-Ry gate targeting the environment followed by a controlled-NOT gate targeting the qubit and simulated dephasing with a Ry gate on the environment followed by a CZ gate on the pair
+• Tech: Python, Qiskit, PyTorch, SymPy, NumPy, Matplotlib, pandas, scikit-learn
