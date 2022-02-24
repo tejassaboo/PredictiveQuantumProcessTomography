@@ -1,4 +1,4 @@
-# QiskitBiskitGlobal
+# QiskitBiskitGlobal - Predictive Quantum Process Tomography
 IBM Global Hackathon Project
 
 Created by:
